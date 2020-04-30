@@ -78,6 +78,5 @@ public class Student {
         return "Student [Id=" + Id + ", name=" + name + ", department=" + department + ", updatedBy=" + updatedBy
                + ", updatedOn=" + updatedOn + "]";
     }
-	
-	
+    
 }
