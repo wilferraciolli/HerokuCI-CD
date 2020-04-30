@@ -75,11 +75,9 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [Id=" + Id + ", name=" + name + ", department=" + department + ", updatedBy=" + updatedBy
-				+ ", updatedOn=" + updatedOn + "]";
-	}
-	
-	
+        return "Student [Id=" + Id + ", name=" + name + ", department=" + department + ", updatedBy=" + updatedBy
+               + ", updatedOn=" + updatedOn + "]";
+    }
 	
 	
 }
