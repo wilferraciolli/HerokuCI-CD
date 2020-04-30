@@ -21,7 +21,6 @@ public class Student {
 	private String updatedOn;
 	
 	public Student() {
-		
 	}
 
 	public Student(Integer id, String name, String department, String updatedBy, String updatedOn) {
@@ -78,5 +77,5 @@ public class Student {
         return "Student [Id=" + Id + ", name=" + name + ", department=" + department + ", updatedBy=" + updatedBy
                + ", updatedOn=" + updatedOn + "]";
     }
-    
+
 }
