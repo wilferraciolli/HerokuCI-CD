@@ -10,8 +10,11 @@ public class Student {
 	
 	@Id
 	private Integer Id;
+
 	private String name;
+
 	private String department;
+
 	private String updatedBy;
 	
 	@DateTimeFormat(pattern="yyyy-MM-dd")
